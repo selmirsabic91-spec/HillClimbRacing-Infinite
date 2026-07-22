@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BalloonGame" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#FF6B6B</item>
+        <item name="colorPrimaryVariant">#FF5252</item>
+    </style>
+</resources>

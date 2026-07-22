@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#F0F0F0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BALLOON GAME"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#FF6B6B"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btn_tap_mode"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="TAP MODE"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="#4CAF50"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btn_falling_mode"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="FALLING MODE"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="#2196F3"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btn_matching_mode"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="MATCHING MODE"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="#FF9800"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
